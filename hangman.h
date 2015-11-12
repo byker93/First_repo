@@ -1,6 +1,3 @@
-#ifndef HANGMAN_H_INCLUDED
-#define HANGMAN_H_INCLUDED
-
 #define WORDLIST_FILENAME "words.txt"
 
 /**
@@ -57,8 +54,3 @@ void hangman(const char secret[]);
  * @return status code
  */
 int getWord(char secret[]);
-
-
-
-
-#endif // HANGMAN_H_INCLUDED
